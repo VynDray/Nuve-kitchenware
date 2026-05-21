@@ -1,0 +1,73 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; background-color: #f3f3f3; padding: 20px; }
+
+.cart-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows stacking on mobile */
+}
+
+.cart-items { flex: 2; min-width: 300px; background: white; padding: 20px; border-radius: 8px; }
+
+.cart-summary { flex: 1; min-width: 250px; }
+
+.summary-box { background: white; padding: 20px; border-radius: 8px; position: sticky; top: 20px; }
+
+.checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #C67953;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .cart-container { flex-direction: column; }
+}
+.dlBTN{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.dlBTN {
+    /* Layout & Spacing */
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    /* Colors */
+    background-color: #ef4444; /* Standard Tailwind Red */
+    color: white;
+    border: 1px solid #ef4444;
+    
+    /* Interaction */
+    transition: all 0.2s ease;
+  }
+
+  .dlBTN:hover {
+    background-color: #dc2626; /* Slightly darker on hover */
+    border-color: #dc2626;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  }
+
+  .dlBTN:active {
+    transform: translateY(0);
+    background-color: #b91c1c;
+  }
+
+  .dlBTN:focus {
+    outline: 2px solid #fca5a5;
+    outline-offset: 2px;
+  }
