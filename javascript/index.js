@@ -138,7 +138,7 @@ function addToCart(image,name,category,price,quantity){
 }
 
 document.querySelector('.cart').addEventListener('click',()=>{
-    window.location.href='../pages/cart.html'
+    window.location.href='pages/cart.html'
 })
 
 const orderBtn = document.querySelectorAll('.orderBtn')
