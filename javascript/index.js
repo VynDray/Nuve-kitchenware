@@ -144,7 +144,7 @@ document.querySelector('.cart').addEventListener('click',()=>{
 const orderBtn = document.querySelectorAll('.orderBtn')
 orderBtn.forEach((button)=>{
     button.addEventListener('click', function() {
-    const phoneNumber = "2567XXXXXXXX"; // Use your international number
+    const phoneNumber = "256701941689"; // Use your international number
     const message = "Hello Logic Level, I'm interested in your services!";
     
     // Encode the message to ensure it handles spaces/symbols correctly
