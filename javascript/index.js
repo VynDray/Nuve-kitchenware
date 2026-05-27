@@ -144,8 +144,8 @@ document.querySelector('.cart').addEventListener('click',()=>{
 const orderBtn = document.querySelectorAll('.orderBtn')
 orderBtn.forEach((button)=>{
     button.addEventListener('click', function() {
-    const phoneNumber = "256701941689"; // Use your international number
-    const message = "Hello Logic Level, I'm interested in your services!";
+    const phoneNumber = "256701941686"; // Use your international number
+    const message = "Hello Nuve kitchen Ware, I'm interested in your services!";
     
     // Encode the message to ensure it handles spaces/symbols correctly
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

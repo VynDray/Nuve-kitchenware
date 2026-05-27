@@ -325,7 +325,7 @@ header{
         padding: 10px 16px;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 10px;
+        gap: 3px;
     }
     .logo {
         width: 60px;
@@ -343,7 +343,7 @@ header{
         order: 3; /* Pushes search bar down below logo & cart */
     }
     .searchbar input {
-        height: 44px;
+        height: 33px;
     }
 
     /* Hero Banner Scaling */
